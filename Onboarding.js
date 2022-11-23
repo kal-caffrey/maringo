@@ -1,4 +1,4 @@
-/*import React from 'react'
+import React from 'react'
 import AppIntroSlider from 'react-native-app-intro-slider';
 import { COLORS, SIZES } from './Theme';
 import { useState } from 'react';
@@ -118,9 +118,9 @@ if(!showHomePage){
     
   }
   
-  export default Onboarding;*/
+  export default Onboarding;
 
-  import React from 'react';
+  /*import React from 'react';
   import AppIntroSlider from 'react-native-app-intro-slider';
   import { 
     StyleSheet,
@@ -214,6 +214,6 @@ if(!showHomePage){
         return <AppIntroSlider renderItem={this._renderItem} data={slides} onDone={this._onDone}/>;
       }
     }
-  }
+  }*/
 
    
