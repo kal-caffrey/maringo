@@ -95,13 +95,13 @@ if(!showHomePage){
           backgroundColor:COLORS.primary,
           width:30,
         }}
-        // showSkipButton
-        // renderNextButton={()=> buttonLabel('Next')}
-        // renderSkipButton={()=> buttonLabel('Skip')}
-        // renderDoneButton={()=>buttonLabel('Done')}
-        // onDone={()=>{
-        //   setShowHomePage(true);
-        // }}
+           showSkipButton
+           renderNextButton={()=> buttonLabel('Next')}
+           renderSkipButton={()=> buttonLabel('Skip')}
+           renderDoneButton={()=>buttonLabel('Done')}
+           onDone={()=>{
+           setShowHomePage(true);
+         }}
         />
     )
   }
